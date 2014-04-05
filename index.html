@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>balloon</title>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="bundle.js" type="text/javascript" charset="utf-8"></script>
+  
+</head>
+<body>
+
+<label for="">Ambient Temperature (Kelvin)</label>
+<input type="text" id="ambient-temperature" value="273.15" />
+
+<label for="">Ambient Pressure (kPa)</label>
+<input type="text" id="ambient-pressure" value="101.325" />
+
+<br>
+
+<!-- 
+I don't know how much load I will have,
+i want to be able to enter this number
+-->
+<label for="">Balloon's mass (kilograms)</label>
+<input type="text" id="mass" value="1" />
+
+<label for="">Balloon's volume (gallons) such that upthrust cancels weight</label>
+<input type="text" name="volume" id="volume" value="" />
+
+<!-- 
+I need to represent the position of the gas bag
+we'll use a canvas for this
+-->
+
+<br>
+
+<canvas height=500 width=500></canvas>
+
+</body>
+</html>

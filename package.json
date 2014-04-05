@@ -1,0 +1,16 @@
+{
+  "name": "balloon",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "archimedes-principle": "0.0.1",
+    "browserify": "^3.38.0",
+    "gas-density-calculator": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -9,6 +9,7 @@
     "gas-density-calculator": "0.0.1"
   },
   "scripts": {
+    "start": "make",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

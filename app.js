@@ -10,7 +10,7 @@ var getDensity = function(mw) {
 }
 
 $(function() {
-  $('#mass').on('keyup', function() {
+  $('input').on('keyup', function() {
     var densityHelium = getDensity(4.002602);
     var densityAir = getDensity(28.97);
 
